@@ -11,7 +11,7 @@
 
 	<artifactId>app</artifactId>
 	<name>${project.groupId}:${project.artifactId}</name>
-	<description>It's the security lib module</description>
+	<description>It's the application module</description>
 
 	<dependencies>
 		<dependency>
