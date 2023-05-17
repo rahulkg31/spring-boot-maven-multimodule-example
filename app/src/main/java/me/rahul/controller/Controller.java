@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/app")
 public class Controller {	
 	
-	private static final Logger logger = LogManager.getLogger(RandomNumberGenerator.class);
+	private static final Logger logger = LogManager.getLogger(Controller.class);
 
 	@Value("#{new Long('${range.random.num}')}")
 	private Long range;
